@@ -1,0 +1,31 @@
+#INICIO
+#DE Selenium IMPORTE webdriver
+#IMPORTE time
+#
+#CLASSE facebook_bot():
+#   FUNÇÃO __init__(self, driver, url, username, password)
+# 	   INICIO FUNÇÃO
+#	   define qual webdriver vai ser usado                   
+#	   define a url e processa com o web driver 		 
+#	   define qual o email e senha de login da função chamada login
+#	   FIMFUNÇÃO
+#
+#   FUNÇÃO login(self, username, password) //login e senha devem ser preenchidos em config.json
+#   	   INICIO FUNÇÃO
+#.  	   procura campo de texto de email
+#.  	   insere dados de email
+#.         procura campo de texto de senha
+#.         insere dados da senha
+#.         procura botão de login
+#.         clica no botão de login
+#.         espera 4 segundos para a troca de página
+#.  	   procura botão chamado de confirmação
+#.   	   clica no botão de confirmação
+#   	   FIMFUNÇÃO
+#.  
+#   FUNÇÃO perfil(self)
+#POST
+#repetidor While True:
+#COMMENT
+#BOTÃO
+#pass

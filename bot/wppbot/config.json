@@ -1,0 +1,7 @@
+{
+    "driver": "geckodriver.exe",
+    "chrome_driver": "chromedriver.exe",
+    "url": "https://web.whatsapp.com/",
+    "username": "email",
+    "password": "senha"
+}
